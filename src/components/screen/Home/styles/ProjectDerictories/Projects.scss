@@ -1,0 +1,47 @@
+.project-container {
+  width: 100%;
+//   background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-container-box {
+  display: flex;
+  padding-right: 500px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.project-wrap{
+    width: 600px;
+    position: absolute;
+    min-height: 300px;
+    right: 10%;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.486);
+    background: rgba(255, 255, 255, 0.281);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+////////List////////////////
+.project-list{
+  overflow: hidden;
+  visibility: hidden;
+  position: absolute;
+}
+.project-list.show{
+  overflow: visible;
+  visibility: visible;
+  position: relative;
+}
+.project-list-box{
+  text-align: left;
+  padding-left: 25px;
+}

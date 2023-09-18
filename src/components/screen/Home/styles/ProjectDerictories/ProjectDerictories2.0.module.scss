@@ -1,0 +1,23 @@
+.ProjectDerict20 {
+  &_container {
+    padding: 50px 40px 50px 40px;
+    margin: 0 0;
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    border: none;
+    &_titleBox {
+      display: flex;
+      justify-content: center;
+    }
+    &_projectBox {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(5, 1fr);
+      grid-column-gap: 040px;
+      grid-row-gap: 40px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  }
+}
